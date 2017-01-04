@@ -82,7 +82,7 @@ section#perfil {
 	text-transform: uppercase;
 	text-align: center
 }
-.btn-loading {
+#btn-loading {
 	width: 20px;
 }
 
