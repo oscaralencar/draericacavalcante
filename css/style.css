@@ -82,6 +82,9 @@ section#perfil {
 	text-transform: uppercase;
 	text-align: center
 }
+.btn-loading {
+	width: 20px;
+}
 
 footer {
 	padding-top: 40px;
