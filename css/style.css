@@ -1,0 +1,126 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #666;
+	font-family: 'Droid Serif', serif;
+	!important;
+}
+
+body {
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6em;
+}
+
+.top-site {
+	text-align: center;
+	color: #FFF;
+}
+
+.top-site h1,
+.top-site h2 {
+	color: #FFF;
+	text-shadow: 2px 2px 4px rgba(77, 111, 135, 0.44);
+}
+
+.foto-perfil {
+	max-width: 200px;
+	margin: 10px 10px 10px 0;
+}
+
+.top-site {
+	padding: 40px
+}
+
+.services ul {
+	list-style: none;
+	padding-left: 0 !important;
+}
+
+.services ul li {
+	padding-bottom: 6px
+}
+
+section#top {
+	background: url(../img/bg.jpg) no-repeat;
+	background-position: center top
+}
+
+section#contato {
+	background: #78b6e9
+}
+
+section#perfil {
+	padding: 40px 0
+}
+
+.services {
+	padding-top: 30px
+}
+
+.services-right {
+	padding: 40px 30px;
+	background: #207FDC;
+	margin-top: 40px;
+}
+
+.services-right hr {
+	margin: 30px 0
+}
+
+.services-right h4,
+.services-right p {
+	color: #FFF !important;
+}
+
+.contato-tit {
+	padding: 40px 0;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center
+}
+
+footer {
+	padding-top: 40px;
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+	.wrap-contato-form {
+		padding:50px;
+		max-width:600px;
+		margin: 0 auto;
+		background: #FFF;
+	}
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+	.services-center {
+		text-align: center
+	}
+	section#perfil {
+		padding: 60px 0
+	}
+	.top-site {
+		height: 600px;
+		padding-top: 200px;
+		font-size: 2em !important;
+	}
+	.services-right {
+		margin-top: 0
+	}
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
